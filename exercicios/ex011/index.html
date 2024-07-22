@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens em diferentes dispositivos</title>
+</head>
+<body>
+    <h1>Imagens em diferentes dispositivos</h1>
+    <p>Abra esse site em diferentes dispositivos para ver as diferenças de Imagens ou aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="Foto grande">
+    </picture>
+
+    <h1>Colocando audio em html</h1>
+    <p>Vamos aprender a como colocar um audio em html5</p>    
+    
+    <audio src="audio/Áudio do WhatsApp de 2024-03-26 à(s) 20.36.18_3089f2e4.waptt.opus" autoplay controls></audio>
+
+    <audio src="" controls ></audio>
+
+    <p>Acima nos temos a forma simples de se colocar um áudio, agora abixo vamos ver uma forma mais complexa</p>
+
+    <audio preload="metadata" controls >
+        <source src="" type="audio/mpeg">
+        <p>Seu navegador não é compativel com àudio</p>
+    </audio>
+
+
+</body>
+</html>
